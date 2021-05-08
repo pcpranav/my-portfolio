@@ -1,0 +1,33 @@
+/* Google Fonts - Import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+:root {
+  --primary-color: #a0aec0;
+  --secondary-color: #cbd5e0;
+  /* --bg-color-1: #2d3748;
+  --bg-color-2: #1a202c; */
+  --bg-color-1: #1a202c;
+  --bg-color-2: #2d3748;
+  --primary-font-size: 1.1rem;
+  --primary-font: "Quicksand", sans-serif;
+  --line-height: 1.5rem;
+}
+
+.container {
+  padding: 1.5rem 10rem;
+}
+
+.shadow {
+  -webkit-box-shadow: 11px 11px 34px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 34px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 34px -12px rgba(0, 0, 0, 0.75);
+}
+
+.quicksand-family {
+  font-family: "Quicksand", sans-serif;
+}
+
+.roboto-mono-family {
+  font-family: "Roboto Mono", sans-serif;
+}

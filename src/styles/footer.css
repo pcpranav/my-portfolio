@@ -1,0 +1,43 @@
+@import "./utility.css";
+
+.footer-container {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color-2);
+}
+
+.footer-container ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  font-size: var(--primary-font-size);
+  font-size: 1rem;
+  font-family: var(--primary-font);
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  filter: brightness(80%);
+}
+
+@media screen and (max-width: 450px) {
+  .footer-container {
+    height: 5vh;
+  }
+  ul li {
+    font-size: 0.8rem;
+  }
+}

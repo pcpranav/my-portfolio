@@ -1,0 +1,58 @@
+@import "./utility.css";
+
+.navbar {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color-1);
+  /* background-color: #000080; */
+  z-index: 10;
+}
+
+.navbar-left a,
+.navbar-right a {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 0 1.3rem;
+  transition: 0.3s ease-in-out all;
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .navbar-left a,
+  .navbar-right a {
+    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+  .navbar {
+    height: auto;
+    flex-direction: column;
+  }
+  .navbar-left {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    flex-direction: row;
+    text-align: center;
+  }
+}

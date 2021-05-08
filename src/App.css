@@ -1,0 +1,41 @@
+/* Style Sheets - Import */
+@import "./styles/navbar.css";
+@import "./styles/main.css";
+@import "./styles/projects.css";
+@import "./styles/skills.css";
+@import "./styles/footer.css";
+@import "./styles//particles.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  position: relative;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.project {
+  position: relative;
+  z-index: 9999;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 1.5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+}

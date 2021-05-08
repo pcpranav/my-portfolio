@@ -1,0 +1,54 @@
+@import "./utility.css";
+
+.skills-container {
+  background-color: var(--bg-color-2);
+
+  font-family: var(--primary-font);
+}
+
+.skills-title {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  color: var(--primary-color);
+}
+
+.skill {
+  width: 60%;
+  margin: 0.8rem;
+}
+
+.skill-name {
+  font-size: var(--primary-font-size);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1100px) {
+  .skill {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skill {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill {
+    margin: 0.5rem 1rem;
+  }
+}
