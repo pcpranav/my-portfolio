@@ -51,33 +51,29 @@ const projects = [
   },
   {
     title: "Expense-Tracker",
-    desc: "A basic mern based expense tracker to track your earnings and spendings.",
+    desc:
+      "A basic mern based expense tracker with to track your earnings and spendings.",
     demo: "https://basicexpensetracker.herokuapp.com/",
     repo: "https://github.com/pcpranav/expense-tracker",
+  },
+  {
+    title: "Basic-Insta",
+    desc:
+      "A social media platform based on mern done by cloning some of instagram's features.",
+    demo: "https://basicinstagramclone.herokuapp.com/",
+    repo: "https://github.com/pcpranav/instagram-clone",
+  },
+  {
+    title: "Proshop",
+    desc: "eCommerce platform built with the MERN stack & Redux.",
+    demo: "https://proshopmernstack.herokuapp.com/",
+    repo: "https://github.com/pcpranav/proshop",
   },
   // {
   //   title: "Project-1",
   //   desc: "Dummy-Project",
   //   demo: "https://basic.netlify.app/",
   //   repo: "https://github.com/pcpranav",
-  // },
-  // {
-  //   title: "Project-1",
-  //   desc: "Dummy-Project",
-  //   demo: "https://basic.netlify.app/",
-  //   repo: "https://github.com/pcpranav",
-  // },
-  // {
-  //   title: "Project-1",
-  //   desc: "Dummy-Project",
-  //   demo: "https://basic.netlify.app/",
-  //   repo: "https://github.com/pcpranav",
-  // },
-  // {
-  //   title: "MQTT Protocol Server",
-  //   desc: "MQTT Server built using Berkeley Sockets to connect mqtt pub-sub.",
-  //   demo: "",
-  //   repo: "https://github.com/zeeshanalam39/mqtt-protocol-server",
   // },
 ];
 
