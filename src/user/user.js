@@ -49,12 +49,12 @@ const projects = [
     demo: "https://basicnotesapp.herokuapp.com/",
     repo: "https://github.com/pcpranav/notes-app",
   },
-  // {
-  //   title: "Project-1",
-  //   desc: "Dummy-Project",
-  //   demo: "https://basic.netlify.app/",
-  //   repo: "https://github.com/pcpranav",
-  // },
+  {
+    title: "Expense-Tracker",
+    desc: "A basic mern based expense tracker to track your earnings and spendings.",
+    demo: "https://basicexpensetracker.herokuapp.com/",
+    repo: "https://github.com/pcpranav/expense-tracker",
+  },
   // {
   //   title: "Project-1",
   //   desc: "Dummy-Project",
