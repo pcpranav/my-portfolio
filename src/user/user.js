@@ -44,37 +44,36 @@ const langs = [
 const projects = [
   {
     title: "Notes",
-    desc:
-      "A completely responsive notes-taking mern website,with user authentication.",
+    desc: "A completely responsive notes-taking mern website,with user authentication.",
     demo: "https://basicnotesapp.herokuapp.com/",
     repo: "https://github.com/pcpranav/notes-app",
+    src: "https://res.cloudinary.com/djclc3a7t/image/upload/v1621066754/Screenshot_2021-05-15-13-46-52-431_hj7wul.jpg",
+    alt: "notes",
   },
   {
     title: "Expense-Tracker",
-    desc:
-      "A basic mern based expense tracker with to track your earnings and spendings.",
+    desc: "A basic mern based expense tracker with to track your earnings and spendings.",
     demo: "https://basicexpensetracker.herokuapp.com/",
     repo: "https://github.com/pcpranav/expense-tracker",
+    src: "https://res.cloudinary.com/djclc3a7t/image/upload/v1621067252/Screenshot_2021-05-15-13-51-10-262_uosdev.jpg",
+    alt: "expense-tracker",
   },
   {
     title: "Basic-Insta",
-    desc:
-      "A social media platform based on mern done by cloning some of instagram's features.",
+    desc: "A social media platform based on mern done by cloning some of instagram's features.",
     demo: "https://basicinstagramclone.herokuapp.com/",
     repo: "https://github.com/pcpranav/instagram-clone",
+    src: "https://res.cloudinary.com/djclc3a7t/image/upload/v1621068019/Screenshot_2021-05-15-14-08-21-736_mptnsp.jpg",
+    alt: "basic-insta",
   },
   {
     title: "Proshop",
     desc: "eCommerce platform built with the MERN stack & Redux.",
     demo: "https://proshopmernstack.herokuapp.com/",
     repo: "https://github.com/pcpranav/proshop",
+    src: "https://res.cloudinary.com/djclc3a7t/image/upload/v1621068169/Screenshot_2021-05-15-14-12-01-675_smqrkc.jpg",
+    alt: "proshop",
   },
-  // {
-  //   title: "Project-1",
-  //   desc: "Dummy-Project",
-  //   demo: "https://basic.netlify.app/",
-  //   repo: "https://github.com/pcpranav",
-  // },
 ];
 
 export {

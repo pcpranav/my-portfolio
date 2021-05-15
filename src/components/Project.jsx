@@ -1,14 +1,14 @@
 import React from "react";
 
 const Project = (props) => {
-  const { title, desc, demo, repo } = props.project;
+  const { title, desc, demo, repo, src, alt } = props.project;
   return (
     <div className="project shadow">
-      <span className="project-title">{title}</span>
-
-      <br></br>
+      <span className="project-title">{title}</span>{" "}
       <div className="project-desc">{desc}</div>
-      <br></br>
+      <div style={{ textAlign: "center", marginBottom: "10px" }}>
+        <img src={src} alt={alt} className="images" />
+      </div>
       <div style={{ textAlign: "center" }}>
         {demo ? (
           <a href={demo} title="Demo" target="_blank" rel="noopener noreferrer">
@@ -17,6 +17,7 @@ const Project = (props) => {
         ) : (
           ""
         )}
+
         <a
           href={repo}
           title="Code/Repo"

@@ -6,7 +6,7 @@
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   justify-items: center;
   font-family: var(--primary-font);
@@ -20,13 +20,15 @@
   font-size: 3rem;
   font-weight: bold;
   color: var(--secondary-color);
+  margin-bottom: 5px;
 }
 
 .project {
-  height: 15rem;
+  height: 25rem;
+  width: 25rem;
   background-color: var(--bg-color-1);
   color: var(--primary-color);
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.5rem;
   border-radius: 1rem;
   transition: 0.4s ease-in-out all;
 }
@@ -48,6 +50,7 @@
 .project-desc {
   font-size: var(--primary-font-size);
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .project a {
@@ -78,4 +81,9 @@
   .project:hover {
     transform: scale(1.04);
   }
+}
+.images {
+  width: 20rem;
+  height: 15rem;
+  /* text-align: center; */
 }

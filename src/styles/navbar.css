@@ -1,7 +1,7 @@
 @import "./utility.css";
 
 .navbar {
-  height: 8vh;
+  height: 9vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
   font-size: var(--primary-font-size);
   font-weight: bold;
   color: var(--primary-color);
-  margin: 0 1.3rem;
+  margin: 0 1rem;
   transition: 0.3s ease-in-out all;
 }
 

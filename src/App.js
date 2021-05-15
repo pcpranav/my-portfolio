@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Route } from "react-router-dom";
 import "./App.css";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/home" exact component={Main} />
       <Route path="/skills" component={Skills} />
       <Route path="/projects" component={Projects} />
+      <Route path="/about" component={About} />
     </Fragment>
   );
 }

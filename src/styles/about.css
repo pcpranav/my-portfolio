@@ -1,0 +1,67 @@
+@import "./utility.css";
+
+.main {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--bg-color-2);
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  text-align: center;
+  z-index: 10;
+}
+
+.main-desc {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-top: -8%;
+}
+
+.main-desc:nth-child(2) {
+  margin-top: 3rem;
+}
+
+.about-desc {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  letter-spacing: 1px;
+  line-height: var(--line-height);
+  width: 60%;
+  margin-top: 5%;
+}
+
+.about-desc i {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .about-desc {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-desc {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-desc {
+    font-size: 1.2rem;
+    margin-top: -30%;
+  }
+  .about-desc {
+    text-align: justify;
+    margin-top: 15%;
+  }
+}
+
+/* background-color: var(--bg-color-2); */
