@@ -12,7 +12,7 @@ const Project = (props) => {
       <div style={{ textAlign: "center" }}>
         {demo ? (
           <a href={demo} title="Demo" target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-desktop"></i>
+            <i className="fas fa-desktop" style={{ padding: "0 1rem" }}></i>
           </a>
         ) : (
           ""

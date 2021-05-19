@@ -18,7 +18,7 @@ const Main = () => {
           >{`Hi! I'm ${userName}.`}</span>
           <span
             className="roboto-mono-family"
-            style={{ padding: "1rem" }}
+            style={{ marginTop: "2rem" }}
           >{`<${mainDesc}/>`}</span>
         </div>
         <div className="about-desc">

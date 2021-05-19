@@ -14,10 +14,10 @@ const About = () => {
           <h1 className="about-desc-detail">Education Details</h1>
           <hr></hr>
           <ul>
-            <li>
+            <li style={{ listStyle: "none" }}>
               <h3>B.E.-Civil Engg from DSCE-Bangalore(VTU)</h3>
             </li>
-            <li>
+            <li style={{ listStyle: "none" }}>
               <h3>
                 Full Stack Developer Bootcamp(MERN) from Zen Class GUVI(IIT-M
                 incubated company)
